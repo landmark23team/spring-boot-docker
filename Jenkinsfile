@@ -1,8 +1,9 @@
+
 pipeline {
-    agent {label "linux"}
+    agent {any}
     stages {
-        stage ('Hello') {
-              echo "Hello"       
+      stage ('Hello') {
+        echo "Hello"       
         }
 
     }
