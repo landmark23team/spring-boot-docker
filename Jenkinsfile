@@ -1,10 +1,7 @@
-
 pipeline {
-    agent {label "any"}
-    stages {
-      stage ('Hello') {
-        echo "Hello"       
-        }
-
+    agent {label "linux"}
+    stage('Hello') {
+        echo "Hello"
     }
+  
 }
