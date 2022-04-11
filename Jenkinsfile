@@ -1,7 +1,7 @@
 pipeline {
     agent {label "linux"}
     stages {
-        stage('Hello') {
+        stage ('Hello') {
               echo "Hello"       
         }
 
